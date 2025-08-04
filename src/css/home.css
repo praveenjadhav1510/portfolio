@@ -1,0 +1,219 @@
+.navbar {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  padding: 0px 30px;
+  position: absolute;
+}
+.navbar .title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 23px;
+  color: white;
+  font-family: "Poppins";
+  text-shadow: 0px 0px 20px #ffffff00;
+  transition: all 0.2s ease-in;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  background-color: #ffffff;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+a:hover::after {
+  transform: scaleX(1);
+}
+.navbar .title:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-shadow: 0px 0px 20px #ffffff;
+}
+.navlinks {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  gap: 25px;
+  font-size: 23px;
+  padding: 10px 20px;
+  background: #9292ff1d;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  z-index: 100;
+}
+.navlinks a {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  place-items: center;
+  gap: 5px;
+  color: #ffffff;
+  text-shadow: 0px 0px 30px #003cff;
+  transition: all 0.2s ease-in;
+}
+.menuBar {
+  width: 100%;
+  max-width: 500px;
+  height: 70px;
+  background: #9292ff1d;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 0px #ffffff00;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  border-radius: 20px 20px 0px 0px;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+.menuBar:hover {
+  box-shadow: 0px 0px 60px 30px #afafff;
+}
+.menuButtons {
+  display: flex;
+  gap: 30px;
+  font-family: "Poppins";
+  font-size: 20px;
+  color: white;
+}
+.menuButtons div {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  color: #003cff;
+  background: white;
+  border: none;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 110px 0px #ffffff;
+}
+.menuButtons div:hover {
+  transform: translateY(8px);
+  box-shadow: 0px 20px 0px #ffffff;
+}
+.menuButtons div::before {
+  transform: translateY(-8px) translateX(1px);
+  position: absolute;
+  background: #ff000000;
+  color: transparent;
+  width: 50px;
+  height: 50px;
+  left: -51px;
+  top: 10px;
+  border-radius: 50px;
+  z-index: -1;
+  box-shadow: 20px 20px 0px #ffffff;
+}
+.menuButtons div::after {
+  transform: translateY(-8px) translateX(-1px);
+  position: absolute;
+  background: #33ff0000;
+  color: transparent;
+  width: 50px;
+  height: 50px;
+  left: 51px;
+  top: 10px;
+  border-radius: 50px;
+  box-shadow: -20px 20px 0px #ffffff;
+  z-index: -1;
+}
+.menuButtons .item.active {
+  transform: translateY(8px);
+  box-shadow: 0px 20px 0px #ffffff;
+}
+.menuButtons .item:hover::after {
+  content: " ";
+  animation: rise-after 0.2s alternate ease-in;
+}
+.menuButtons .item:hover::before {
+  animation: rise-before 0.2s alternate ease-in;
+  content: " ";
+}
+@keyframes rise-after {
+  0% {
+    transform: translateY(40px) translateX(-1px);
+  }
+  100% {
+    transform: translateY(-8px) translateX(-1px);
+  }
+}
+
+@keyframes rise-before {
+  0% {
+    transform: translateY(40px) translateX(1px);
+  }
+  100% {
+    transform: translateY(-8px) translateX(1px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding: 10px;
+  }
+  .navbar .title {
+    font-size: 20px;
+    width: 80%;
+  }
+  .navlinks {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: grid;
+    gap: 10px;
+    font-size: 15px;
+  }
+  .navlinks a {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menuButtons {
+    gap: 10px;
+  }
+  .icon {
+    opacity: 0;
+  }
+}
+
+.name {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  display: none;
+}
+.name0 :nth-child(1) {
+  font-family: "poppins";
+  text-align: center;
+  font-size: 45px;
+}
+
+.name0 :nth-child(2) {
+  font-family: "poppins";
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+}

@@ -1,0 +1,95 @@
+.resume-container {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  padding: 10px;
+  overflow-y: scroll;
+  backdrop-filter: blur(10px);
+}
+.resume {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+.options {
+  box-sizing: border-box;
+  padding: 20px;
+  min-width: 350px;
+  width: 25%;
+  height: 100vh;
+  color: #5150f7;
+  background: #ffffff73;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.options .btn {
+  text-decoration: none;
+}
+.resume-pdf {
+  width: 100%;
+  height: 100vh;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.download-btn {
+  display: flex;
+  gap: 10px;
+  place-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background: #5150f7;
+  border-radius: 10px;
+  width: 100%;
+  transition: all 0.2s ease-in;
+}
+.download-btn:hover {
+  background: #8c8cff;
+}
+.close {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  place-items: center;
+  gap: 10px;
+  transition: all 0.2s ease-in;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.close:hover {
+  color: red;
+}
+@media screen and (max-width: 870px) {
+  .resume-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .resume {
+    width: 100%;
+    height: 90vh;
+  }
+  .resume-pdf {
+    width: 100%;
+    height: 90vh;
+  }
+  .options {
+    width: 100%;
+    height: fit-content;
+  }
+  .download-btn {
+    max-width: 300px;
+  }
+}

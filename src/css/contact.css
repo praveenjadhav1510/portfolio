@@ -1,0 +1,95 @@
+.contact-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.info {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #ffffff20;
+  border-radius: 10px;
+}
+.emailBox {
+  box-sizing: border-box;
+  padding: 10px;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  background: #ffffff20;
+}
+.emailBox h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.email {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: start;
+  place-items: center;
+}
+.email span,
+.email input {
+  border: none;
+  outline: none;
+  height: 40px;
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  color: white;
+  background: #5150f7;
+  border-radius: 20px;
+  width: fit-content;
+  font-size: 17px;
+}
+.change-email {
+  cursor: pointer;
+}
+::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+.emailBox textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 40vh;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  background: #5150f7;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-family: "poppins", sans-serif;
+}
+.send-btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  height: 40px;
+  padding: 0px 15px;
+  border-radius: 40px;
+  font-size: 17px;
+  color: #5150f7;
+  transition: all 0.3s ease-in-out;
+}
+.send-btn:hover {
+  background: #b7ffaf;
+}
