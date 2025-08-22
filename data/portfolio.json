@@ -1,0 +1,134 @@
+{
+  "profile": {
+    "name": "Praveen Jadhav",
+    "nickname": "Jarvis",
+    "tagline": "Full Stack Developer | React & Node Enthusiast",
+    "githubUsername": "praveenjadhav1510",
+    "profileImage": "https://github.com/praveenjadhav1510.png"
+  },
+  "about": {
+    "intro": "I am a BCA student passionate about web development, AI integration, and creative projects like music players and 3D design.",
+    "education": [
+      { "level": "10th Grade", "year": 2020, "score": "60%" },
+      { "level": "PUC 1st Year", "year": 2021, "score": "98%" },
+      { "level": "PUC 2nd Year", "year": 2022, "score": "51%" },
+      { "level": "BCA 1st Sem", "score": "84.6%" },
+      { "level": "BCA 2nd Sem", "score": "86.4%" },
+      { "level": "BCA 3rd Sem", "score": "89.6%" },
+      { "level": "BCA 4th Sem", "score": "86.0%" },
+      { "level": "BCA 5th Sem", "score": "86.15%" },
+      { "level": "BCA 6th Sem", "score": "93.23%" }
+    ]
+  },
+  "skills": [
+    {
+      "name": "React.js",
+      "icon": "⚛️",
+      "level": "Advanced"
+    },
+    {
+      "name": "Node.js",
+      "icon": "🟢",
+      "level": "Advanced"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "🟨",
+      "level": "Advanced"
+    },
+    {
+      "name": "Python",
+      "icon": "🐍",
+      "level": "Intermediate"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "🍃",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Firebase",
+      "icon": "🔥",
+      "level": "Intermediate"
+    },
+    {
+      "name": "MySQL",
+      "icon": "🐬",
+      "level": "Intermediate"
+    },
+    {
+      "name": "HTML5",
+      "icon": "🌐",
+      "level": "Advanced"
+    },
+    {
+      "name": "CSS3",
+      "icon": "🎨",
+      "level": "Advanced"
+    },
+    {
+      "name": "Java",
+      "icon": "☕",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Git",
+      "icon": "📝",
+      "level": "Intermediate"
+    },
+    {
+      "name": "GitHub",
+      "icon": "🐙",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Blender",
+      "icon": "🎭",
+      "level": "Beginner"
+    },
+    {
+      "name": "Figma",
+      "icon": "🎯",
+      "level": "Beginner"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Mood-Based Music App",
+      "description": "A React.js music app with mood detection, theme customization, and WaveSurfer.js integration.",
+      "technologies": ["React.js", "Firebase", "WaveSurfer.js"],
+      "github": "https://github.com/praveenjadhav1510/mood-music",
+      "demo": "#"
+    },
+    {
+      "title": "SaveLinks App",
+      "description": "Web app to save and manage links with export/import and encrypted sharing.",
+      "technologies": ["React.js", "Local Storage", "Encryption"],
+      "github": "https://github.com/praveenjadhav1510/savelinks",
+      "demo": "#"
+    },
+    {
+      "title": "TalentSleuth AI",
+      "description": "AI-powered resume analysis tool with MongoDB backend.",
+      "technologies": ["React.js", "MongoDB", "AI/ML"],
+      "github": "https://github.com/praveenjadhav1510/talentsleuth",
+      "demo": "#"
+    }
+  ],
+  "resume": {
+    "pdf": "/resume.pdf"
+  },
+  "contact": {
+    "emails": ["praveenjadhav1510@gmail.com", "praveenjadhav1510@outlook.com"],
+    "github": "https://github.com/praveenjadhav1510",
+    "linkedin": "https://www.linkedin.com/in/praveen-jadhav-2880a6288/"
+  },
+  "interests": {
+    "hobbies": [
+      "Music",
+      "Gaming (PUBG, Asphalt, Minecraft, Mobile Legends, Chess, Among Us)",
+      "Anime (Itachi Uchiha)",
+      "Blender / 3D Design"
+    ]
+  }
+}
