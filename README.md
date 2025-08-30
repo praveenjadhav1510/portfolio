@@ -9,7 +9,7 @@ This repository contains my **personal portfolio projects**, hosted on both **Gi
 
 ### 🌐 Live Links
 - **GitHub Pages:** [View Portfolio](https://<your-username>.github.io/portfolio)  
-- **Vercel:** [View Portfolio](https://portfolio.vercel.app)  
+- **Vercel:** [View Portfolio]([https://portfolio.vercel.app](https://portfolio-2-three-sooty-54.vercel.app/))  
 
 ### ⚡ Features
 - Modern and responsive design.  
